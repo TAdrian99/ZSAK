@@ -20,8 +20,8 @@ print('V1')
 while True:
     # Menü kiíratása
     print("Válasszon egy lehetőséget:")
-    print("1. Új áru felvitele")
-    print("2. Listázás")
+    print("1. Új áru felvitele 1")
+    print("2. Listázás 2")
     print("3. Elem törlése 3")
     print("4. Felviteli részletek  4")
     print("5. Legnehezebb áru 5")
@@ -29,7 +29,7 @@ while True:
     print("7. Kiszállítási dátum módosítása 7")
     print("8. Futár cég felvitel 8")
     print("9. Fuvarozó hozzárendelése 9")
-    print("0. Kilépés")
+    print("0. Kilépés 0")
 
     # Felhasználói input bekérése
     valasztas = input("Kérem, válasszon (0-9): ")

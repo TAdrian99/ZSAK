@@ -75,7 +75,7 @@ while True:
 
     elif valasztas == '6':
         print("Ön választotta az Opció 6-t.")
-        # Itt folytathatja az Opció 6-hoz tartozó műveleteket.
+        utoljara_felvitt_aru()
 
     elif valasztas == '7':
         print("Ön választotta az Opció 7-t.")

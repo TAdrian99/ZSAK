@@ -14,10 +14,11 @@ aruk = []
 
 # Az "utoljára felvitt áru" menüpont
 def utoljara_felvitt_aru():
-    if:
-        #ide jön az if ág kódja
+    if len(aruk) > 0:
+        utolso_aru = aruk[-1]  # Az utolsó elem kiválasztása a listából
+        print(f"Az utoljára felvitt áru: {utolso_aru}")
     else:
-        #ide jön az else ág kódja
+        print("Nincs még felvitt áru.")
 
 # ...
 

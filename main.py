@@ -1,22 +1,5 @@
-# This is a sample Python script.
+import new_product,list_products,delete_product_by_id,list_id
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-import new_product,list_products,delete_product_by_id #beimportáltam Kristóf metódusait a main projektbe
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-print('V1')
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
 while True:
@@ -56,7 +39,7 @@ while True:
 
     elif valasztas == '4':
         print("Ön választotta az Opció 4-t.")
-        # Itt folytathatja az Opció 4-hoz tartozó műveleteket.
+        list_id.list_id()
 
     elif valasztas == '5':
         print("Ön választotta az Opció 5-t.")

@@ -1,4 +1,4 @@
-import new_product,list_products,delete_product_by_id,list_id, last_product
+import new_product,list_products,delete_product_by_id,list_id, last_product, heaviest_product
 
 
 
@@ -43,7 +43,7 @@ while True:
 
     elif valasztas == '5':
         print("Ön választotta az Opció 5-t.")
-        # Itt folytathatja az Opció 5-höz tartozó műveleteket.
+        heaviest_product.heaviest_product()
 
     elif valasztas == '6':
         print("Ön választotta az Opció 6-t.")

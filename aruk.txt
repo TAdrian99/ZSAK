@@ -1,17 +1,19 @@
 
-ID: 3
-Név: pego
-Magasság: 33 cm
-Szélesség: 21 cm
-Forgalmazó: skoda
-Ár: 22 Ft
-Rögzítés ideje: 2023-12-01 08:54:48
+ID: 1
+Név: Kenyér
+Magasság: 10 cm
+Szélesség: 20 cm
+Súly: 1000 g
+Forgalmazó: Beretka
+Ár: 699 Ft
+Rögzítés ideje: 2023-12-01 12:57:53
 -------------------------
-ID: 4
-Név: Karamell
-Magasság: 1 cm
-Szélesség: 1 cm
-Forgalmazó: Stummerú
-Ár: 10 Ft
-Rögzítés ideje: 2023-12-01 08:56:58
+ID: 2
+Név: Peugeot
+Magasság: 160 cm
+Szélesség: 200 cm
+Súly: 10000000 g
+Forgalmazó: Pegueot kft
+Ár: 300 000 Ft
+Rögzítés ideje: 2023-12-01 12:58:28
 -------------------------

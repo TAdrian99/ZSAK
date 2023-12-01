@@ -5,7 +5,7 @@ def new_product():
     nev = input("Adja meg az áru nevét: ")
     magassag = input("Adja meg az áru magasságát(cm): ")
     szelesseg = input("Adja meg az áru szélességét(cm): ")
-    suly = input("Adja meg az áru súlyát(g): ")
+    suly = input("Adja meg az áru súlyát(Kg): ")
     ar = input("Adja meg az áru árát: ")
     forgalmazo = input("Ki a forgalmazója az árunak?")
 

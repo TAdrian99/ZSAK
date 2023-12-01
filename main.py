@@ -3,10 +3,12 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+import new_product,list_products,delete_product_by_id #beimportáltam Kristóf metódusait a main projektbe
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
 
 
 # Press the green button in the gutter to run the script.
@@ -42,15 +44,15 @@ while True:
     # Választás kezelése
     elif valasztas == '1':
         print("Ön választotta az Opció 1-t.")
-        # Itt folytathatja az Opció 1-hoz tartozó műveleteket.
+        new_product.new_product()
 
     elif valasztas == '2':
         print("Ön választotta az Opció 2-t.")
-        # Itt folytathatja az Opció 2-hoz tartozó műveleteket.
+        list_products.list_products()
 
     elif valasztas == '3':
         print("Ön választotta az Opció 3-t.")
-        # Itt folytathatja az Opció 3-hoz tartozó műveleteket.
+        delete_product_by_id.input_delete_product_by_id()
 
     elif valasztas == '4':
         print("Ön választotta az Opció 4-t.")

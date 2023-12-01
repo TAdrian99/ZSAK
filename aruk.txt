@@ -1,0 +1,17 @@
+
+ID: 3
+Név: pego
+Magasság: 33 cm
+Szélesség: 21 cm
+Forgalmazó: skoda
+Ár: 22 Ft
+Rögzítés ideje: 2023-12-01 08:54:48
+-------------------------
+ID: 4
+Név: Karamell
+Magasság: 1 cm
+Szélesség: 1 cm
+Forgalmazó: Stummerú
+Ár: 10 Ft
+Rögzítés ideje: 2023-12-01 08:56:58
+-------------------------

@@ -1,7 +1,11 @@
 def input_delete_product_by_id():
     try:
-        product_id_to_delete = int(input("Adja meg az áru ID-jét a törléshez: "))
+        product_id_to_delete = int(input("Nyomjon 0-át a menübe való visszatéréshez\nAdja meg az áru ID-jét a törléshez: "))
         delete_product_by_id(product_id_to_delete)
+        if input == 0:
+            pass
+
+
     except ValueError:
         print("Érvénytelen bemenet. Kérlek, adj meg egy számot az áru ID-jéhez.")
         product_id_to_delete = int(input("Adja meg az áru ID-jét a törléshez: "))
@@ -23,6 +27,7 @@ def delete_product_by_id(product_id):
             elif found and line.startswith("-------------------------"):
                 found = False
                 print(f"Az áru (ID: {product_id}) sikeresen törölve.")
+                input("Nyomja meg az entert a menübe való visszatéréshez...")
             elif not found:
                 new_lines.append(line)
                 # Ellenőrizzük, hogy találtunk-e ilyen ID-t
@@ -40,6 +45,6 @@ def delete_product_by_id(product_id):
     except FileNotFoundError:
         print("Az 'aruk.txt' fájl nem található.")
 
-    input("Nyomja meg az entert a menübe való visszatéréshez...")
+
 
 

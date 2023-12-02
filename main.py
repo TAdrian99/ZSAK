@@ -14,6 +14,7 @@ while True:
     print("7. Kiszállítási dátum módosítása 7")
     print("8. Futár cég felvitel 8")
     print("9. Fuvarozó hozzárendelése 9")
+    print("10. Adott futárcéghez tartozó terméklista. 10 ")
     print("0. Kilépés 0")
 
     # Felhasználói input bekérése
@@ -51,6 +52,10 @@ while True:
 
     elif valasztas == '9':
         # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
+    elif valasztas == '10':
+        print("Ön választotta az Opció 10-t.")
+        # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
+
 
     else:
         print("Érvénytelen választás. Kérem, válasszon újra.")

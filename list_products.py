@@ -5,7 +5,7 @@ def list_products():
 
     # Olvassa be az aruk.txt fájlt és listázza az összes terméket
     try:
-        with open("aruk.txt", "r") as f:
+        with open("aruk.txt", "r", encoding='utf-8') as f:
             products = f.readlines()
 
             if not products:

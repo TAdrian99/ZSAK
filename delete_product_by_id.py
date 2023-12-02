@@ -14,7 +14,7 @@ def input_delete_product_by_id():
 def delete_product_by_id(product_id):
     try:
         # Beolvassuk a fájl tartalmát
-        with open("aruk.txt", "r") as f:
+        with open("aruk.txt", "r", encoding='utf-8') as f:
             lines = f.readlines()
 
         # Megkeressük a törlendő rekordot az ID alapján

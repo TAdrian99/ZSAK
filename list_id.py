@@ -16,7 +16,7 @@ def list_id():
                 break  # Kilép a ciklusból, ha megtalálta az ID-t, és vége az adatoknak
             elif found:
                 print(line.strip())
-                break
+                return
 
         if not found:
             print(f"Nincs találat az '{product_id}' ID-vel rendelkező termékre.")

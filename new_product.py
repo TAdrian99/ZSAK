@@ -9,6 +9,10 @@ def new_product():
                 print("Hibás adatbevitel! Kérlek adj meg egy nevet.")
                 continue  # Az üres input esetén folytassuk az újbóli bekérést
 
+            if nev == "0":
+                print("Visszatérés a főmenübe.")
+                break
+
             magassag = input("Adja meg az áru magasságát (cm) (vagy 0 a kilépéshez): ")
             if not magassag:
                 print("Hibás adatbevitel! Kérlek adj meg egy magasságot.")

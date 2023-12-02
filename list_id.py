@@ -14,6 +14,7 @@ def list_id():
                 found = False
             elif found:
                 print(line.strip())
+                break
 
         if not found:
             print(f"Nincs találat az '{product_id}' ID-vel rendelkező termékre.")

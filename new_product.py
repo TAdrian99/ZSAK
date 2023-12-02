@@ -7,7 +7,7 @@ def new_product():
     szelesseg = input("Adja meg az áru szélességét(cm): ")
     suly = input("Adja meg az áru súlyát(Kg): ")
     ar = input("Adja meg az áru árát: ")
-    forgalmazo = input("Ki a forgalmazója az árunak?")
+    forgalmazo = input("Ki a beszállítója az árunak?")
 
     # Rögzítés ideje
     now = datetime.now()
@@ -32,7 +32,7 @@ def new_product():
 
     # Az adatokat egy szövegfájlba írjuk
     with open("aruk.txt", "a") as f:
-        f.write(f"\nID: {new_id}\nNév: {nev}\nMagasság: {magassag} cm\nSzélesség: {szelesseg} cm\nSúly: {suly} g\nForgalmazó: {forgalmazo}\nÁr: {ar} Ft\nRögzítés ideje: {timestamp}\n")
+        f.write(f"\nID: {new_id}\nNév: {nev}\nMagasság: {magassag} cm\nSzélesség: {szelesseg} cm\nSúly: {suly} g\nBeszállító: {forgalmazo}\nÁr: {ar} Ft\nRögzítés ideje: {timestamp}\n")
         f.write(f"-------------------------")
 
     print("Az áru hozzáadva az árlistához. ID:", new_id)

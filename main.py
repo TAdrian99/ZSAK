@@ -1,6 +1,9 @@
-import new_product,list_products,delete_product_by_id,list_id, last_product, heaviest_product
-
-
+import delete_product_by_id
+import heaviest_product
+import last_product
+import list_id
+import list_products
+import new_product
 
 while True:
     # Menü kiíratása
@@ -27,44 +30,38 @@ while True:
 
     # Választás kezelése
     elif valasztas == '1':
-        print("Ön választotta az Opció 1-t.")
         new_product.new_product()
 
     elif valasztas == '2':
-        print("Ön választotta az Opció 2-t.")
         list_products.list_products()
 
     elif valasztas == '3':
-        print("Ön választotta az Opció 3-t.")
         delete_product_by_id.input_delete_product_by_id()
 
     elif valasztas == '4':
-        print("Ön választotta az Opció 4-t.")
         list_id.list_id()
 
     elif valasztas == '5':
-        print("Ön választotta az Opció 5-t.")
         heaviest_product.heaviest_product()
 
     elif valasztas == '6':
-        print("Ön választotta az Opció 6-t.")
         last_product.last_product()
 
     elif valasztas == '7':
-        print("Ön választotta az Opció 7-t.")
         # Itt folytathatja az Opció 7-hoz tartozó műveleteket.
+        pass  # pass kulcsszó hozzáadása, ha nincs még semmi
 
     elif valasztas == '8':
-        print("Ön választotta az Opció 8-t.")
         # Itt folytathatja az Opció 8-hoz tartozó műveleteket.
+        pass  # pass kulcsszó hozzáadása, ha nincs még semmi
 
     elif valasztas == '9':
-        print("Ön választotta az Opció 9-t.")
         # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
-    elif valasztas == '10':
-        print("Ön választotta az Opció 10-t.")
-        # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
+        pass  # pass kulcsszó hozzáadása, ha nincs még semmi
 
+    elif valasztas == '10':
+        # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
+        pass # pass kulcsszó hozzáadása, ha nincs még semmi
 
     else:
         print("Érvénytelen választás. Kérem, válasszon újra.")

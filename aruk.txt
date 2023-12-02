@@ -1,19 +1,19 @@
 
 ID: 1
-Név: Kenyér
-Magasság: 10 cm
-Szélesség: 20 cm
-Súly: 1000 g
-Forgalmazó: Beretka
-Ár: 699 Ft
-Rögzítés ideje: 2023-12-01 12:57:53
+NÃ©v: KenyÃ©r
+MagassÃ¡g: 10 cm
+SzÃ©lessÃ©g: 20 cm
+SÃºly: 1 Kg
+ForgalmazÃ³: Beretka
+Ãr: 699 Ft
+RÃ¶gzÃ­tÃ©s ideje: 2023-12-01 12:57:53
 -------------------------
 ID: 2
-Név: Peugeot
-Magasság: 160 cm
-Szélesség: 200 cm
-Súly: 10000000 g
-Forgalmazó: Pegueot kft
-Ár: 300 000 Ft
-Rögzítés ideje: 2023-12-01 12:58:28
+NÃ©v: Peugeot
+MagassÃ¡g: 160 cm
+SzÃ©lessÃ©g: 200 cm
+SÃºly: 100 Kg
+ForgalmazÃ³: Pegueot kft
+Ãr: 300 000 Ft
+RÃ¶gzÃ­tÃ©s ideje: 2023-12-01 12:58:28
 -------------------------

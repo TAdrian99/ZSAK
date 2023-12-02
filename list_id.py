@@ -1,8 +1,8 @@
 def list_id():
     try:
         product_id = int(input("Nyomjon 0-át a menübe való visszatéréshez\nAdja meg az áru ID-jét a megjelenítéshez: "))
-        if input == 0:
-            pass
+        if product_id == 0:
+            return  # Visszatérés a főmenühöz
         with open("aruk.txt", "r") as f:
             lines = f.readlines()
 

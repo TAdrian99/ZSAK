@@ -26,39 +26,30 @@ while True:
 
     # Választás kezelése
     elif valasztas == '1':
-        print("Ön választotta az Opció 1-t.")
         new_product.new_product()
 
     elif valasztas == '2':
-        print("Ön választotta az Opció 2-t.")
         list_products.list_products()
 
     elif valasztas == '3':
-        print("Ön választotta az Opció 3-t.")
         delete_product_by_id.input_delete_product_by_id()
 
     elif valasztas == '4':
-        print("Ön választotta az Opció 4-t.")
         list_id.list_id()
 
     elif valasztas == '5':
-        print("Ön választotta az Opció 5-t.")
         heaviest_product.heaviest_product()
 
     elif valasztas == '6':
-        print("Ön választotta az Opció 6-t.")
         last_product.last_product()
 
     elif valasztas == '7':
-        print("Ön választotta az Opció 7-t.")
         # Itt folytathatja az Opció 7-hoz tartozó műveleteket.
 
     elif valasztas == '8':
-        print("Ön választotta az Opció 8-t.")
         # Itt folytathatja az Opció 8-hoz tartozó műveleteket.
 
     elif valasztas == '9':
-        print("Ön választotta az Opció 9-t.")
         # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
 
     else:

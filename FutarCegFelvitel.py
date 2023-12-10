@@ -18,26 +18,40 @@ class Futarceg:
             raise ValueError("A telefonszám legalább 8 karakter hosszú vagy 20 karakternél rövidebbnek kell lennie!")
         else:
             cleaned_telefon = telefon.strip()
+            self.telefon = cleaned_telefon     
+
+    def get_nev(self):
+        return self.nev
+
+    def set_nev(self, value):
+        if not value or not isinstance(value,str):
+            raise ValueError("A név mező nem lehet null vagy üres!")
+        else:
+            cleaned_value = value.strip().title()
+            self.nev = cleaned_value
+        
+    def get_cim(self):
+        return self.cim
+
+    def set_cim(self, value):
+        if not value or not isinstance(value,str):
+            raise ValueError("A cím mező nem lehet null vagy üres!")
+        else:
+            cleaned_value = value.strip().title()
+            self.nev = cleaned_value    
+
+    def get_telefonszam(self):
+        return self.telefon
+
+    def set_cim(self, value):
+        if not value or not isinstance(value,str):
+            raise ValueError("A telefon nem lehet null vagy üres!")
+        if not value.startswith("+"):
+            raise ValueError("Csak nemzetközi telefonszám adható meg, így a kezdőkarakter mindenféleképpen +")
+        if len(value) <= 8 or len(value) > 20:
+            raise ValueError("A telefonszám legalább 8 karakter hosszú vagy 20 karakternél rövidebbnek kell lennie!")
+        else:
+            cleaned_telefon = value.strip()
             self.telefon = cleaned_telefon
-    @property
-    def nev(self):
-        return self._nev
-
-    @nev.setter
-    def nev(self, value):
-        if value == "":
-            raise ValueError("A név nem lehet üres!")
-        self._nev = value
-
-    @property
-    def telefon(self):
-        return self._telefon
-
-    @telefon.setter
-    def telefon(self, value):
-        if not value.startswith("+36"):
-            raise ValueError("A telefonszám +36-tal kell kezdődjön!")
-        self._telefon = value
-
 
 

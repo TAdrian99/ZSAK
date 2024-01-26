@@ -1,29 +1,10 @@
 
 ID: 1
-NÃ©v: KenyÃ©r
-MagassÃ¡g: 10 cm
-SzÃ©lessÃ©g: 20 cm
-SÃºly: 1 Kg
-ForgalmazÃ³: Beretka
-Ãr: 699 Ft
-RÃ¶gzÃ­tÃ©s ideje: 2023-12-01 12:57:53
--------------------------
-ID: 2
-NÃ©v: Peugeot
-MagassÃ¡g: 160 cm
-SzÃ©lessÃ©g: 200 cm
-SÃºly: 100 Kg
-ForgalmazÃ³: Pegueot kft
-Ãr: 300 000 Ft
-RÃ¶gzÃ­tÃ©s ideje: 2023-12-01 12:58:28
--------------------------
-
-ID: 3
-Név: Teszt2
-Magasság: 2 cm
-Szélesség: 2 cm
-Súly: 2 g
-Beszállító: teszt kft
-Ár: 300 Ft
-Rögzítés ideje: 2023-12-02 12:11:22
+Nev: Teszt
+Magassag: 30 cm
+Szelesseg: 30 cm
+Suly: 300 g
+Beszallito: Teszt kft.
+Ar: 5000 Ft
+Rogzites ideje: 2024-01-26 19:09:23
 -------------------------

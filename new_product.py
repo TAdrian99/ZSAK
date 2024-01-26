@@ -89,7 +89,7 @@ def new_product():
         new_id = last_id + 1
 
         with open("aruk.txt", "a") as f:
-            f.write(f"\nID: {new_id}\nNév: {nev}\nMagasság: {magassag} cm\nSzélesség: {szelesseg} cm\nSúly: {suly} g\nBeszállító: {forgalmazo}\nÁr: {ar} Ft\nRögzítés ideje: {timestamp}\n")
+            f.write(f"\nID: {new_id}\nNev: {nev}\nMagassag: {magassag} cm\nSzelesseg: {szelesseg} cm\nSuly: {suly} g\nBeszallito: {forgalmazo}\nAr: {ar} Ft\nRogzites ideje: {timestamp}\n")
             f.write(f"-------------------------")
 
         print("Az áru hozzáadva az árlistához. ID:", new_id)

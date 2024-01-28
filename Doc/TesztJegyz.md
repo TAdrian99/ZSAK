@@ -24,11 +24,6 @@
    - Rendszer válaszidők ellenőrzése nagy adatmennyiség esetén.
    - Terheléses tesztek a szerver stabilitásának vizsgálatára.
 
-### 2.3. Biztonsági Tesztek
-   - Jogosultságok ellenőrzése
-   - Adatbiztonság és titkosítás vizsgálata
-   - Penetrációs tesztek a rendszer sebezhetőségeinek felderítésére
-
 ## 3. Tesztelési Környezet
 
 ### 3.1. Hardver
@@ -83,15 +78,6 @@
    - Teszteset: Nagy adatmennyiségű kérés kezelése
      - Eredmény: A rendszer stabil marad nagy terhelés esetén is.
 
-### 4.3. Biztonsági Tesztek
-
-#### 4.3.1. Jogosultság Ellenőrzése
-   - Teszteset: Felhasználói jogosultságok ellenőrzése
-     - Eredmény: Csak a megfelelő jogosultságokkal rendelkező felhasználók férhetnek hozzá bizonyos funkciókhoz.
-
-#### 4.3.2. Penetrációs Teszt
-   - Teszteset: Rendszer sebezhetőségeinek tesztelése
-     - Eredmény: A rendszer jól ellenáll a külső támadásoknak.
 
 # 5. Hibajelentések
 
@@ -99,6 +85,7 @@
 
 #### 5.1.1. Menü Hibái
   - A menü kiválasztásánál elírás történt. Az utolsó menüpont a "10. Adott futárcéghez tartozó terméklista", de a a kiválasztásnál csak 0-9-ig szerepelnek a lehetőségek. Javaslom a kijavítását az egyértelműség érdekében.
+
 ### 5.2. Funkcionális Hibák
 #### 5.2.1. Adatkezelési Funkciók Nem Működnek
 

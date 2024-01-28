@@ -1,4 +1,4 @@
-# Tesztelési Jegyzőkönyv
+# Tesztelési Jegyzőkönyv - 0.1.3.
 
 ## 1. Bevezetés
 

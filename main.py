@@ -6,6 +6,8 @@ import list_products
 import new_product
 import kisz_datum_mod
 import FutarCegFelvitel
+import fuv_hozzarend
+import futarceg_termeklista
 
 while True:
     # Menü kiíratása
@@ -55,12 +57,10 @@ while True:
         FutarCegFelvitel.futar_felvitel()
 
     elif valasztas == '9':
-        # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
-        pass  # pass kulcsszó hozzáadása, ha nincs még semmi
+        fuv_hozzarend.fuvarozas_hozzarendeles()
 
     elif valasztas == '10':
-        # Itt folytathatja az Opció 9-hoz tartozó műveleteket.
-        pass # pass kulcsszó hozzáadása, ha nincs még semmi
+        futarceg_termeklista.futar_termekek_listazasa()
 
     else:
         print("Érvénytelen választás. Kérem, válasszon újra.")

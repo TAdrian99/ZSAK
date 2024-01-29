@@ -9,12 +9,7 @@ Előkészítettem a tesztadatokat a funkcionális és teljesítménytesztekhez.
 
 2.: Funkcionális Tesztek
 
-2.1. Funkcionális Tesztek Első Kör
-Felhasználói Bejelentkezés:
-
-Bejelentkeztem a rendszerbe az előre megadott felhasználói adatokkal.
-Ellenőriztem a sikeres bejelentkezési folyamatot.
-
+2.1. Funkcionális Tesztek 
 Árukezelés:
 Hozzáadtam egy új árut.
 Ellenőriztem, hogy az áru sikeresen rögzült.

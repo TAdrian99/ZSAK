@@ -4,6 +4,7 @@ import last_product
 import list_id
 import list_products
 import new_product
+import kisz_datum_mod
 
 while True:
     # Menü kiíratása
@@ -48,9 +49,7 @@ while True:
         last_product.last_product()
 
     elif valasztas == '7':
-        # Itt folytathatja az Opció 7-hoz tartozó műveleteket.
-        pass  # pass kulcsszó hozzáadása, ha nincs még semmi
-
+        kisz_datum_mod.kiszallitas_datum_modositasa()
     elif valasztas == '8':
         # Itt folytathatja az Opció 8-hoz tartozó műveleteket.
         pass  # pass kulcsszó hozzáadása, ha nincs még semmi

@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import kisz_datum_mod
 def new_product():
     print("Ön az Új áru felvitele opciót választotta.")
     while True:
@@ -56,7 +56,8 @@ def new_product():
             if forgalmazo == '0':
                 print("Visszatérés a főmenübe.")
                 break
-
+            kiszallitas_datum = input(
+                "Adja meg az áru kiszállítási dátumát (YYYY-MM-DD HH:mm:ss) vagy üssön Enter-t a beállításához később: ")
             # Rögzítés ideje
             now = datetime.now()
             timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
@@ -85,13 +86,32 @@ def new_product():
         except FileNotFoundError:
             last_id = 0
 
-        # Új ID generálása
+            # Új ID generálása
         new_id = last_id + 1
 
         with open("aruk.txt", "a") as f:
-            f.write(f"\nID: {new_id}\nNev: {nev}\nMagassag: {magassag} cm\nSzelesseg: {szelesseg} cm\nSuly: {suly} g\nBeszallito: {forgalmazo}\nAr: {ar} Ft\nRogzites ideje: {timestamp}\n")
+            f.write(
+                f"\nID: {new_id}\nNev: {nev}\nMagassag: {magassag} cm\nSzelesseg: {szelesseg} cm\nSuly: {suly} g\nBeszallito: {forgalmazo}\nAr: {ar} Ft\nRogzites ideje: {timestamp}\n")
+
+            # Kiszállítási dátum hozzáadása a fájlhoz
+            if kiszallitas_datum:
+                f.write(f"Kiszallitas datuma: {kiszallitas_datum}\n")
+
             f.write(f"-------------------------")
 
         print("Az áru hozzáadva az árlistához. ID:", new_id)
+
+        # Kiszállítási dátum módosítása
+        if kiszallitas_datum:
+            kisz_datum_mod.modify_delivery_date(new_id, kiszallitas_datum)
+
         input("Nyomja meg az entert a menübe való visszatéréshez...")
         return
+        # Kiszállítási dátum módosítása
+        if kiszallitas_datum:
+            kisz_datum_mod.modify_delivery_date(new_id, kiszallitas_datum)
+
+        input("Nyomja meg az entert a menübe való visszatéréshez...")
+        return
+
+

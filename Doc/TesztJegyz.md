@@ -11,7 +11,6 @@
 ## 2. Tesztelési Célok
 
 ### 2.1. Funkcionális Tesztek
-   - Felhasználói bejelentkezés
    - Árukezelés (hozzáadás, szerkesztés, törlés)
    - Készletmozgások rögzítése
    - Készletellenőrzési folyamatok
@@ -70,11 +69,7 @@
 
 ### 4.2. Teljesítménytesztek
 
-#### 4.2.1. Rendszer Válaszidők Ellenőrzése
-   - Teszteset: Bejelentkezési folyamat válaszideje
-     - Eredmény: A válaszidő elfogadható tartományban van.
-
-#### 4.2.2. Terheléses Teszt
+#### 4.2.1. Terheléses Teszt
    - Teszteset: Nagy adatmennyiségű kérés kezelése
      - Eredmény: A rendszer stabil marad nagy terhelés esetén is.
 

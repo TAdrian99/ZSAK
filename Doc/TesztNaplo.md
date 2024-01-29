@@ -60,7 +60,7 @@ Dokumentáltam a működés eredményét.
 
 5.: Összegzés és Zárás
 Összegztem a tesztelési eredményeket és készítettem egy összefoglaló jelentést.
-Dokumentáltam a még fennálló hibákat és hiányosságokat.
-Elkészítettem a tesztelési napló végleges verzióját.
+Az eredmény azt mutatja hogy a 7-10.es pontok jelenleg nem működnek a projektben, ezeket orvosolni kell.
 
-Megjegyzés: A tesztelési napló alapján javasoltam a további javításokat és fejlesztéseket a fejlesztőcsapatnak. A fejlesztéseket követően ajánlott újraellenőrizni a funkcionális és teljesítményteszteket a stabilitás és teljesítmény biztosítása érdekében.
+
+Megjegyzés: A tesztelési napló alapján javasoltam a további javításokat és fejlesztéseket a fejlesztőcsapatnak. A fejlesztéseket követően ajánlott újraellenőrizni a funkcionális és teljesítményteszteket a stabilitás és teljesítmény biztosítása érdekében. A fejlesztői csapatnak részletes információt adtam, hogy mely pontok nem működnek, amiket azonnal ki kell javítani.

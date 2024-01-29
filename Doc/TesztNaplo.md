@@ -14,47 +14,51 @@ Felhasználói Bejelentkezés:
 
 Bejelentkeztem a rendszerbe az előre megadott felhasználói adatokkal.
 Ellenőriztem a sikeres bejelentkezési folyamatot.
-Árukezelés:
 
+Árukezelés:
 Hozzáadtam egy új árut.
 Ellenőriztem, hogy az áru sikeresen rögzült.
-Készletmozgások:
 
+Készletmozgások:
 Rögzítettem egy bevételt.
 Ellenőriztem, hogy a bevétel sikeresen rögzült.
-Készletellenőrzés:
 
+Készletellenőrzés:
 Elindítottam egy készletellenőrzési folyamatot.
 Ellenőriztem, hogy az ellenőrzés sikeresen elindult.
+
 2.2. Hibajelentések Ellenőrzése
 Ellenőriztem a korábbi naplóban dokumentált hibajelentéseket és megerősítettem, hogy a felületi hibák javítva lettek.
-Nap 3: Teljesítménytesztek
-Rendszer Válaszidők Ellenőrzése:
 
+3.: Teljesítménytesztek
+
+Rendszer Válaszidők Ellenőrzése:
 Mértem a bejelentkezési folyamat válaszidejét.
 Ellenőriztem, hogy a válaszidő elfogadható tartományban van.
-Terheléses Teszt:
 
+Terheléses Teszt:
 Elvégeztem egy terheléses tesztet nagy adatmennyiségű kérésekkel.
 Ellenőriztem, hogy a rendszer stabil maradt nagy terhelés esetén is.
-Nap 4: Funkcionális Hibák Ellenőrzése
-Kiszállítási Dátum Módosítása (7. pont):
 
+4.: Funkcionális Hibák Ellenőrzése
+
+Kiszállítási Dátum Módosítása (7. pont):
 Ellenőriztem a kiszállítási dátum módosításának funkcióját.
 Dokumentáltam a működés eredményét.
-Futár Cég Felvitel (8. pont):
 
+Futár Cég Felvitel (8. pont):
 Ellenőriztem az új futár cég felvitelének funkcióját.
 Dokumentáltam a működés eredményét.
-Fuvarozó Hozzárendelése (9. pont):
 
+Fuvarozó Hozzárendelése (9. pont):
 Ellenőriztem a fuvarozó hozzárendelésének funkcióját.
 Dokumentáltam a működés eredményét.
-Adott Futárcéghez Tartozó Terméklista (10. pont):
 
+Adott Futárcéghez Tartozó Terméklista (10. pont):
 Ellenőriztem a futárcéghez tartozó terméklista lekérését.
 Dokumentáltam a működés eredményét.
-Nap 5: Összegzés és Zárás
+
+5.: Összegzés és Zárás
 Összegztem a tesztelési eredményeket és készítettem egy összefoglaló jelentést.
 Dokumentáltam a még fennálló hibákat és hiányosságokat.
 Elkészítettem a tesztelési napló végleges verzióját.

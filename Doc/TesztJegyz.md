@@ -41,6 +41,9 @@
 #### 4.1.1. Árukezelés
    - Teszteset: Új áru hozzáadása
      - Eredmény: Az áru sikeresen hozzá lett adva.
+    
+     - ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/fd7fbe65-21a9-4563-95a8-3ede8e411584)
+
 
 #### 4.1.2. Készletmozgások
    - Teszteset: Bevétel rögzítése

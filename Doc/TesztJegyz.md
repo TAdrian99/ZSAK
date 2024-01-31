@@ -42,33 +42,50 @@
    - Teszteset: Új áru hozzáadása
      - Eredmény: Az áru sikeresen hozzá lett adva.
     
-     - ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/fd7fbe65-21a9-4563-95a8-3ede8e411584)
+      ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/fd7fbe65-21a9-4563-95a8-3ede8e411584)
 
 
 #### 4.1.2. Készletmozgások
    - Teszteset: Bevétel rögzítése
      - Eredmény: A bevétel rögzítése sikeres volt.
+    
+       ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/5df80361-5317-480a-961c-e5a9448ab0c4)
 
 #### 4.1.3. Készletellenőrzés
-   - Teszteset: Ellenőrzési folyamat indítása
-     - Eredmény: Az ellenőrzés sikeresen elindult.
+   - Teszteset: Áru törlése
+     - Eredmény: A törlés sikeres.
+
+   ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/0360d66f-9cd8-4a03-a033-3e2304280c6e)
+   
 
 #### 4.1.4. Kiszállítási Dátum Módosítása
    - Teszteset: Kiszállítási dátum módosítása
      - Eredmény: A kiszállítási dátum sikeresen módosult.
+    
+       ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/42b32a7e-f64c-434b-872d-56edbcbe2d71)
+
 
 #### 4.1.5. Futár Cég Felvitel
    - Teszteset: Új futár cég felvitele
      - Eredmény: A futár cég sikeresen fel lett véve.
+    
+       ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/9219d311-a9a1-47bc-9e9c-ddd88730be63)
+
 
 #### 4.1.6. Fuvarozó Hozzárendelése
    - Teszteset: Fuvarozó hozzárendelése
      - Eredmény: A fuvarozó sikeresen hozzá lett rendelve a megfelelő futár céghez.
+    
+       ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/43868da6-d9ac-4fff-8b8d-cc8fd9390d22)
+
 
 
 #### 4.1.7. Adott Futárcéghez Tartozó Terméklista
    - Teszteset: Futárcéghez tartozó terméklista lekérése
-     - Eredmény: A terméklista megfelelően vissza lett adva.
+     - Eredmény: A terméklista megfelelően vissza lett adva.(Üres)
+    
+       ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/1e2d2af5-45e3-4b5d-88ab-f623ce1b0838)
+
 
 ### 4.2. Teljesítménytesztek
 

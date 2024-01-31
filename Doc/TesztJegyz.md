@@ -42,7 +42,7 @@
    - Teszteset: Új áru hozzáadása
      - Eredmény: Az áru sikeresen hozzá lett adva.
     
-      ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/fd7fbe65-21a9-4563-95a8-3ede8e411584)
+       ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/fd7fbe65-21a9-4563-95a8-3ede8e411584)
 
 
 #### 4.1.2. Készletmozgások
@@ -55,7 +55,7 @@
    - Teszteset: Áru törlése
      - Eredmény: A törlés sikeres.
 
-   ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/0360d66f-9cd8-4a03-a033-3e2304280c6e)
+      ![image](https://github.com/TAdrian99/ZSAK/assets/150531076/0360d66f-9cd8-4a03-a033-3e2304280c6e)
    
 
 #### 4.1.4. Kiszállítási Dátum Módosítása
